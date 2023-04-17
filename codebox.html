@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Code Example</title>
+    
+    <!-- Syntax Highlighting theme -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.25.0/themes/prism-okaidia.min.css">
+    
+    <!-- Icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="codebox.css">
+
+  </head>
+  <body>
+    <div class="code-block">
+        <div class="title-bar">
+          <span class="code-name">Python <i class='bx bxl-python'></i></span>
+          <button class="copy-btn" onclick="copyToClipboard(event)"><i class='bx bx-copy'></i> Copy code</button>
+        </div>
+    <pre><code id="code-example" class="language-python"> <!-- choose your language -->
+        
+# Example code here [TEMPLATE]
+
+print("hello world")
+    </code></pre>
+    </div>
+
+<!-- All scripts -->
+<script src="codeboxcopy.js"></script>
+<script src="highlight.js"></script>
+
+<!-- install prism.js -->
+<script src="https://cdn.jsdelivr.net/npm/prismjs@1.25.0/prism.js"></script>
+
+<!-- choose a language for highlighting -->
+<script src="https://cdn.jsdelivr.net/npm/prismjs@1.25.0/components/prism-python.min.js"></script>
+
+      

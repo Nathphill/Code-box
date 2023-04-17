@@ -1,0 +1,2 @@
+// Syntax Highlight
+Prism.highlightAll();
